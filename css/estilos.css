@@ -1,0 +1,48 @@
+.navbar-brand
+{
+	padding-top: 5px;
+
+}
+.navbar-brand>img
+{
+	width: auto;
+}
+
+
+.bg-1 {
+    background-color: #895858; /* Green */
+    color: #ffffff;
+}
+
+.bg-2 {
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+}
+
+.bg-3 {
+    background-color: #333333; /* Dark Blue */
+    color: #ffffff;
+}
+
+hr {
+    border-color: #FDF667;
+    border-width: 3px;
+    max-width: 250px;
+}
+.seccion1{
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-top: -20px;
+}
+
+.marketing
+{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.footer
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
