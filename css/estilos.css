@@ -48,11 +48,10 @@ hr {
 }
 
 .btn {
-	padding:10px 20px;
-	border-radius: 5px;
-	border:#F3F781;
-	background-color: #F3F781;
-	color:black;
-	margin:10px 0px;
-	display:inline-block;
+
+	transition: 0.3s;
+}
+
+.btn:hover{
+	transform:scale(1.5);
 }
