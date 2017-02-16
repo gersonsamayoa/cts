@@ -24,6 +24,7 @@
     color: #ffffff;
 }
 
+
 hr {
     border-color: #FDF667;
     border-width: 3px;
@@ -58,4 +59,20 @@ hr {
 
 .subtitulo{
 	text-shadow: 2px 2px 5px black;
+}
+
+.servicios
+{
+	padding-bottom: 30px;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+            background-image:none !important;
+        }
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+          background-color: #D8D8D8;
+        }
+
+.filosofia {
+	font-size: 16px;
 }
