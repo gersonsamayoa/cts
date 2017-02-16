@@ -19,6 +19,8 @@
 .navbar-default .navbar-nav>li>a {
     color: #f7e5d3;
 }
+
+.navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover {
     color: #ffcc9a;
     background-color: transparent;
