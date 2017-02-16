@@ -24,6 +24,15 @@
     color: #ffffff;
 }
 
+.bg-4 {
+    background-color: #f7e5d3; /* Dark Blue */
+    color: #333;
+}
+
+.bg-5 {
+    background-color: #443030; /* Dark Blue */
+    color: #ffffff;
+}
 
 hr {
     border-color: #FDF667;
