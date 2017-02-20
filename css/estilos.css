@@ -8,6 +8,27 @@
 	width: auto;
 }
 
+/* Color Sub menu pequeño */
+
+.submenu {
+    font-size:8px;
+    color: #ffe87c;
+}
+
+#div-border { 
+Position: absolute;
+top:15px;
+border-left: 2px solid #ffe87c; 
+
+width:1px; 
+height:45px; 
+} 
+
+/*auto clic menu */
+li.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
 
 /*Cambiando el color del menu*/
 /*escritorio*/
