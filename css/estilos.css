@@ -117,7 +117,6 @@ li.dropdown:hover > .dropdown-menu {
     color: #ffffff;
 }
 
-<<<<<<< HEAD
 .bg-4 {
     background-color: #f7e5d3; /* Dark Blue */
     color: #333;
@@ -127,8 +126,6 @@ li.dropdown:hover > .dropdown-menu {
     background-color: #443030; /* Dark Blue */
     color: #ffffff;
 }
-=======
->>>>>>> master
 
 hr {
     border-color: #ffcf12;
@@ -166,7 +163,6 @@ hr {
 	text-shadow: 2px 2px 5px black;
 }
 
-<<<<<<< HEAD
 .sombra {
 	-webkit-box-shadow: 11px 3px 34px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 11px 3px 34px 0px rgba(0,0,0,0.75);
@@ -178,23 +174,12 @@ box-shadow: 11px 3px 34px 0px rgba(0,0,0,0.75);
   filter: drop-shadow(5px 5px 5px #222);
 }
 
-=======
->>>>>>> master
 .servicios
 {
 	padding-bottom: 30px;
 }
 
-<<<<<<< HEAD
 
-=======
-.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
-            background-image:none !important;
-        }
-.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
-          background-color: #D8D8D8;
-        }
->>>>>>> master
 
 .filosofia {
 	font-size: 16px;
