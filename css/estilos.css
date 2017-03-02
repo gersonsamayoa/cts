@@ -176,11 +176,17 @@ box-shadow: 11px 3px 34px 0px rgba(0,0,0,0.75);
 
 .servicios
 {
-	padding-bottom: 30px;
+	padding-bottom: 15px;
 }
 
 
 
 .filosofia {
 	font-size: 16px;
+}
+
+/* Porfolio de imagenes */
+
+.portfolio-item {
+    margin-bottom: 25px;
 }
