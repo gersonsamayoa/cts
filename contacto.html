@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <meta name="Colegio CTS" content="">
-    <meta name="Colegio CTS" content="">
-    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico">
 
     <title>Colegio Técnico de Computación CTS</title>
 
@@ -28,7 +27,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           </button>
-      <a href="http://cts.edu.gt" class="navbar-brand hidden-xs hidden-sm"><img src="img/logo-header1.png"></a>
+      <a href="http://cts.edu.gt" class="navbar-brand hidden-xs hidden-sm"><img src="img/logo-header1.png" ></a>
       <a href="http://cts.edu.gt" class=" hidden-md hidden-lg"><img src="img/logo-header1.png" width="45px"></a>
     
         </div>
@@ -36,7 +35,7 @@
         <div class="collapse navbar-collapse" id="navegacion-fm">
 
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html">Home<br><font class="submenu">INICIO</font></a><div id="div-border"></div></li>
+            <li class='active'><a href="index.html">Home<br><font class="submenu">INICIO</font></a><div id="div-border"></div></li>
       
              <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sobre Nosotros <br><font class="submenu">FILOSOFÍA INSTITUCIONAL</font><span class="caret"></span></a><div id="div-border"></div>
@@ -54,7 +53,7 @@
                   <li> <a href="#">Diversificado</a></li>
                   </ul>
               </li>
-            <li class='active'><a href="servicios.html">Servicios <br><font class="submenu">OTROS SERVICIOS</font></a> <div id="div-border"></div></li>
+            <li><a href="servicios.html">Servicios <br><font class="submenu">OTROS SERVICIOS</font></a> <div id="div-border"></div></li>
             <li><a href="#">Contacto <br><font class="submenu">COMUNICATE CON NOSOTROS</font></a><div id="div-border"></div></li>
 
           </ul>
@@ -113,78 +112,48 @@
         
 </div>
 </div>
-<!--aqui va la seccion2 servicios-->
-    <div class="main container servicios bg-4">
-      <div class="row">
-      <div class="col-lg-12  marketing  text-right bg-5">
-          <h1>Servicios <small><font size="2px">Educando con tecnología para la Vida</font></small></h1>
+<!--aqui va la seccion2 marketin-->
+<div class="main container marketing text-center bg-4">
 
-        </div>
+  <div class="row bg-4">
+      <div class="col-sm-6 text-left">
+            <form role="form" action="php/contacto.php" method="POST" id="contacto" title="Nombre">
 
-        <div class="col-lg-12 page-header">
-          <h2>Laboratorio de Química y Biología</h2>
-        </div>
-            <div class="col-md-6 ">
-              <p class="filosofia">El laboratorio de Química y Biología, es importante en la formación práctica de los estudiantes de este centro educativo; con la finalidad de poder asociar lo aprendido en los salones de clase, con la vivencia directa de la experiencia real en el laboratorio.
-              </p>
-            </div> 
-            <div class="col-md-6 ">
-              <img src="img/labquimica.jpg" class="img-responsive img-rounded center-block" alt="Laboratorio de Química">
-            </div>     
+            <div class="form-group ">
+              <label for="nombre">Nombre</label>
+              <input name="nombre" type="text" required="required" id="nombre" placeholder="Nombre"  tabindex="1" title="Nombre" class="form-control">
+            </div>
+
+            <div class="form-group ">
+              <label for="email">Email</label>
+              <input name="email" type="email" required="required" id="email" placeholder="email"  tabindex="2" title="Email" class="form-control">
+            </div>
+
+             <div class="form-group ">
+              <label for="telefono">Teléfono</label>
+              <input name="telefono" type="text" required="required" id="telefono" placeholder="Nombre"  tabindex="3" title="Telefono" class="form-control">
+            </div>
+
+            <div class="form-group ">
+              <label for="mensaje">Mensaje</label>
+              <textarea name="mensaje" rows="4" id="mensaje" placeholder="mensaje" tabindex="4" class="form-control"></textarea>
+            </div>
+
+            
+            <input type="submit" name="enviar" tabindex="7" value="Enviar" class="btn btn-default">
+            <input type="reset" class="btn btn-default" tabindex="6" value="Borrar">
+          </form>
       </div>
-
-      <div class="row">
-        <div class="col-lg-12 page-header">
-          <h2>Laboratorio de Computación</h2>
-        </div>
-            <div class="col-md-6 ">
-              <p class="filosofia">El laboratorio de computación es el espacio diseñado para el aprendizaje de los conocimientos informáticos fundamentales para todo egresado del Colegio C.T.S.; cuya finalidad es aprovechar al máximo la tecnología de punta y mediante ella poder educarlos para desempeñarse en un trabajo, ingresar a las universidades del país y finalmente prepararlos para la vida.</p>
-            </div> 
-            <div class="col-md-6 ">
-              <img src="img/laboratoriodecompu.jpg" class="img-responsive img-rounded center-block" alt="Laboratorio de Computación">
-            </div>     
-      </div>
-
-      <div class="row">
-        <div class="col-lg-12  page-header">
-          <h2>E-learning</h2>
-        </div>
-            <div class="col-md-6 ">
-              <p class="filosofia">Este espacio está diseñado para aprovechar el servicio de Internet, como una herramienta para el desarrollo del proceso enseñanza aprendizaje, con la interacción online de distintos materiales y herramientas. Este concepto está transformando la educación, abriendo las puertas a un aprendizaje individualizado con la tutoría del catedrático del curso.</p>
-            </div> 
-            <div class="col-md-6 ">
-              <img src="img/elearning.jpg" class="img-responsive img-rounded center-block" alt="E-learning">
-            </div>     
-      </div>
-
-      
-
-
-      <div class="row ">
-      <div class="col-lg-12 page-header">
-          <h2>Otros Servicios</h2>
-        </div>
-        <div class="col-md-6 ">
-          <h2>Tienda Escolar</h2>
-          <img src="img/tienda.jpg" class="img-responsive img-rounded center-block" alt="Tienda Escolar">
-        </div>
-            <div class="col-md-6">
-              <h2>Libreria Escolar</h2>
-              <img src="img/libreria.jpg" class="img-responsive img-rounded center-block" alt="Libreria Escolar">
-            </div>     
-      </div>
-
-<br>
     </div>
-
+</div>
 
  <!--foter-->
 
 <div class="main container footer text-center bg-5">
 	<a href="https://www.facebook.com/ctscolegio/"><img src="img/fb.png" class="btn btn2" width="60px"></a>
-  <img src="img/yt.png" class="btn btn2" width="60px">
-  <img src="img/tw.png" class="btn btn2" width="60px">
-  <a href="http://cts.edu.gt/moodle"><img src="img/md.png" class="btn btn2" width="60px"></a>
+	<img src="img/yt.png" class="btn btn2" width="60px">
+	<img src="img/tw.png" class="btn btn2" width="60px">
+	<a href="http://cts.edu.gt/moodle"><img src="img/md.png" class="btn btn2" width="60px"></a>
 	<h4 align="center">Copyright Tools-Tech 2017</h4>
 </div>
 

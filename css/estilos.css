@@ -132,6 +132,15 @@ hr {
     border-width: 3px;
     max-width: 250px;
 }
+
+.hr2 {
+    position: relative;
+    border-color: #ffcf12;
+    border-width: 3px;
+   width: auto;
+}
+
+
 .seccion1{
 	padding-left: 0px;
 	padding-right: 0px;
@@ -150,12 +159,12 @@ hr {
 	padding-bottom: 10px;
 }
 
-.btn {
+.btn2 {
 
 	transition: 0.3s;
 }
 
-.btn:hover{
+.btn2:hover{
 	transform:scale(1.5);
 }
 
@@ -179,8 +188,6 @@ box-shadow: 11px 3px 34px 0px rgba(0,0,0,0.75);
 	padding-bottom: 15px;
 }
 
-
-
 .filosofia {
 	font-size: 16px;
 }
@@ -190,3 +197,6 @@ box-shadow: 11px 3px 34px 0px rgba(0,0,0,0.75);
 .portfolio-item {
     margin-bottom: 25px;
 }
+
+
+
