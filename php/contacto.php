@@ -46,9 +46,12 @@ $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //
  
 //Comprobamos que los datos enviados a la función MAIL de PHP estén bien y si es correcto enviamos
 if(mail($para, $asunto, $mensaje, $headers)){
-echo "Su mensaje se ha enviado correctamente";
-echo "<br />";
-echo '<a href="../formulario_contacto.html">Volver</a>';
+echo '<script type="text/javascript">
+alert("Gracias por tu mensaje");
+window.location.assign("../contacto.html");
+</script>';
+
+
 }else{
 echo "Hubo un error en el envío inténtelo más tarde";
 }

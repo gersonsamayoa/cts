@@ -14,6 +14,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/estilos.css" rel="stylesheet">
 
+
+
   </head>
 
   <body>
@@ -35,7 +37,7 @@
         <div class="collapse navbar-collapse" id="navegacion-fm">
 
           <ul class="nav navbar-nav navbar-right">
-            <li class='active'><a href="index.html">Home<br><font class="submenu">INICIO</font></a><div id="div-border"></div></li>
+            <li><a href="index.html">Home<br><font class="submenu">INICIO</font></a><div id="div-border"></div></li>
       
              <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sobre Nosotros <br><font class="submenu">FILOSOFÍA INSTITUCIONAL</font><span class="caret"></span></a><div id="div-border"></div>
@@ -48,13 +50,13 @@
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Programas de Estudio <br><font class="submenu">PENSUM POR CARRERA</font><span class="caret"></span></a> <div id="div-border"></div>
                   <ul class="dropdown-menu" role="menu">
                   <li> <a href="preprimaria.html">Preprimaria</a></li>
-                  <li> <a href="#">Primaria</a></li>
-                  <li> <a href="#">Básico</a></li>
-                  <li> <a href="#">Diversificado</a></li>
+                  <li> <a href="primaria.html">Primaria</a></li>
+                  <li> <a href="basico.html">Básico</a></li>
+                  <li> <a href="diversificado.html">Diversificado</a></li>
                   </ul>
               </li>
             <li><a href="servicios.html">Servicios <br><font class="submenu">OTROS SERVICIOS</font></a> <div id="div-border"></div></li>
-            <li><a href="#">Contacto <br><font class="submenu">COMUNICATE CON NOSOTROS</font></a><div id="div-border"></div></li>
+            <li class='active'><a href="contacto.html">Contacto <br><font class="submenu">COMUNICATE CON NOSOTROS</font></a><div id="div-border"></div></li>
 
           </ul>
 
@@ -117,6 +119,7 @@
 
   <div class="row bg-4">
       <div class="col-sm-6 text-left">
+      <h2>Escríbenos:</h2>
             <form role="form" action="php/contacto.php" method="POST" id="contacto" title="Nombre">
 
             <div class="form-group ">
@@ -125,27 +128,48 @@
             </div>
 
             <div class="form-group ">
-              <label for="email">Email</label>
-              <input name="email" type="email" required="required" id="email" placeholder="email"  tabindex="2" title="Email" class="form-control">
+              <label for="email">Email </label>
+              <input name="email" type="email" required="required" id="email" placeholder="Email"  tabindex="2" title="Email" class="form-control">
             </div>
 
              <div class="form-group ">
               <label for="telefono">Teléfono</label>
-              <input name="telefono" type="text" required="required" id="telefono" placeholder="Nombre"  tabindex="3" title="Telefono" class="form-control">
+              <input name="telefono" type="text" required="required" id="telefono" placeholder="Telefono"  tabindex="3" title="Telefono" class="form-control">
             </div>
 
             <div class="form-group ">
               <label for="mensaje">Mensaje</label>
-              <textarea name="mensaje" rows="4" id="mensaje" placeholder="mensaje" tabindex="4" class="form-control"></textarea>
+              <textarea name="mensaje" rows="4" id="mensaje" placeholder="Mensaje" tabindex="4" class="form-control"></textarea>
             </div>
 
             
-            <input type="submit" name="enviar" tabindex="7" value="Enviar" class="btn btn-default">
-            <input type="reset" class="btn btn-default" tabindex="6" value="Borrar">
+            <input type="submit" name="enviar" tabindex="6" value="Enviar" class="btn btn-default">
+            <input type="reset" class="btn btn-default" tabindex="7" value="Borrar">
           </form>
       </div>
+
+      <div class="col-sm-6 text-left">
+      <br>
+          
+          <iframe width="100%" height="385" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3214.8392760880893!2d-90.37737609999999!3d14.083046399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x858845e3d242b84b%3A0xc7c978dcff674a57!2sColegio+CTS!5e1!3m2!1ses!2sgt!4v1488922361062"></iframe>
+      </div>
+          
+      </div>
+
+    <div class="row bg-4">
+    <div class="col-sm-6 text-left">
+    <h2>Tambien puedes contactarnos:</h2>
+    <p><span class="glyphicon glyphicon-home">   </span> Dirección: Colonia Vista Hermosa, Chiquimulilla Santa Rosa</p>
+    <p><span class="glyphicon glyphicon-earphone">   </span> Teléfono: 7885-1522</p>
+    <p><span class="glyphicon glyphicon-envelope">   </span> Correo: admin@cts.edu.gt</p>
+    
     </div>
-</div>
+    <div class="col-sm-6 text-left">
+    </div>
+
+    </div>
+    </div>
+
 
  <!--foter-->
 
