@@ -198,5 +198,29 @@ box-shadow: 11px 3px 34px 0px rgba(0,0,0,0.75);
     margin-bottom: 25px;
 }
 
+     
+.thumbnail2 {
+    background-color: #f7e5d3;
+    border: none;
+    color: #333;
+}
+
+.thumbnail2:hover {
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.thumbnail2:focus {
+    text-decoration: none;
+    color:#443030;
+}
+
+.principal {
+
+    font-family: 'Varela Round', sans-serif;
+    font-size: 60px;
+}
+
+
 
 
