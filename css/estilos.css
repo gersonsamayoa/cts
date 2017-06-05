@@ -24,12 +24,7 @@ width:1px;
 height:45px; 
 } 
 
-/*auto clic menu solo para pantalla escritorio */
-@media only screen and (min-width: 767px) {
-li.dropdown:hover > .dropdown-menu {
-    display: block;
-}
-}
+
 
 
 /*Cambiando el color del menu*/
@@ -217,12 +212,14 @@ box-shadow: 11px 3px 34px 0px rgba(0,0,0,0.75);
     color:#443030;
 }
 
-.principal {
-
-    font-family: 'Varela Round', sans-serif;
+#principal {
     font-size: 60px;
 }
 
 
-
-
+/*auto clic menu solo para pantalla escritorio */
+@media only screen and (min-width: 767px) {
+li.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+}
