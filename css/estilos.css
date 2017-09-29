@@ -212,7 +212,7 @@ box-shadow: 11px 3px 34px 0px rgba(0,0,0,0.75);
     color:#443030;
 }
 
-#principal {
+.principal {
     font-size: 60px;
 }
 
@@ -222,4 +222,8 @@ box-shadow: 11px 3px 34px 0px rgba(0,0,0,0.75);
 li.dropdown:hover > .dropdown-menu {
     display: block;
 }
+  
 }
+
+
+
