@@ -9,7 +9,7 @@ $mensaje = $_POST['mensaje'];
 $recaptcha= $_POST['g-recaptcha-response'];
 
 if($recaptcha!=''){
-	$secret="6LdTaZgUAAAAAOJHPMSjqxkeICZN0TQEmBC77yp2";
+	$secret="CLAVE PRIVADA RECAPTCHA";
 	$ip=$_SERVER['REMOTE_ADDR'];
 	$var=file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=$secret&response=$recaptcha&remoteip=$ip");
 	$array=json_decode($var, true);
